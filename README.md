@@ -14,7 +14,7 @@
     - cd to the "backend" directory
     - Run `node server.js` ("Server at port 3000 started!" will be printed on a terminal.)
     
-    Frontend:  *can use Visual Studio Code Live Server 
+    Frontend:  *optional: can use Visual Studio Code Live Server 
     - Open a new terminal window
     - cd to the "frontend" directory
     - Run `http-server`
@@ -155,11 +155,11 @@
     
 ###### Day 4
     - Added a sort feature. 
-    - Continued to learn  MongoDB & Node.js.
+    - Continued to learn MongoDB & Node.js.
     - Decided to use a simple query.
 
 ###### Day 5
-    - Clean up 
+    - Clean up.
 
 ## Difficulties & Resolutions:
 
