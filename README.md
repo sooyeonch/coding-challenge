@@ -54,13 +54,29 @@
    
 5. The frontend send a GET request by providing a category type and a langauge.
 
-###### Users can:
+#### Users can:
     - Switch between English and French (radio buttons at the top left corner).
     - Click any category at the top.
     - Click a row to view more information.
     - Click arrow buttons or enter a number to go to the different page in the table.
     - Search a cheese by name.
     - Sort the table by a cheese name, a fat content percentage, or a moisture percentage.
+
+### Screenshots
+
+<img width="500" alt="1" src="https://user-images.githubusercontent.com/48460686/126950746-c7e9f9f3-8035-4d76-8e3c-65cccad15fc6.png"> 
+
+##### English
+
+<img width="500" alt="2" src="https://user-images.githubusercontent.com/48460686/126950765-44d87132-1497-4919-9843-a305e0a7a377.png">
+
+##### French
+
+<img width="500" alt="3" src="https://user-images.githubusercontent.com/48460686/126950774-7f78017d-d3b1-41aa-bb8b-0934a78fff26.png">
+
+##### When a row is clicked
+
+
 
 ## My solutions/ideas for the "Strech" section
 
