@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Cheese Directory - Agriculture and Agri-Food Canada</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <br />
+      <br />
+
+      <div id="languageChoice">
+        <input
+          type="radio"
+          id="english"
+          name="language"
+          value="English"
+          checked
+        />
+        <label for="english">English</label>
+        <input type="radio" id="french" name="language" value="French" />
+        <label for="french">Français</label>
+      </div>
+      <h1 id="cheeseHeader">Cheese Directory</h1>
+      <p id="agricultureTitle">from Agriculture and Agri-Food Canada</p>
+    </div>
+    <div id="categoryTypeDiv">
+      <table id="catagoryTable">
+        <th id="firmCheese">Firm Cheese</th>
+        <th id="freshCheese">Fresh Cheese</th>
+        <th id="hardCheese">Hard Cheese</th>
+        <th id="semiSoftCheese">Semi-soft Cheese</th>
+        <th id="softCheese">Soft Cheese</th>
+        <th id="veinedCheese">Veined Cheeses</th>
+        <th id="uncategorized">Uncategorized</th>
+      </table>
+    </div>
+    <br />
+    <br />
+    <br />
+    <input type="search" id="searchBox" placeholder="Search by name..." />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div id="numPageDiv">
+      <button class="button-class" id="prev">&#60;</button>
+      <input type="number" id="searchNum" min="1" placeholder="" max="0" />
+      <label id="slash">/</label>
+      <label id="numTotalPages"></label>
+      <button class="button-class" id="next">&#62;</button>
+    </div>
+    <br />
+    <br />
+    <table id="mainTable">
+      <thead>
+        <th id="name">
+          Name
+          <button class="sortButton" id="nameSortButton">&#x021C5;</button>
+        </th>
+        <th id="fatContent">
+          Fat Content %<button class="sortButton" id="fatContentSortButton">
+            &#x021C5;
+          </button>
+        </th>
+        <th id="mositure">
+          Moisture %<button class="sortButton" id="moistureSortButton">
+            &#x021C5;
+          </button>
+        </th>
+        <th id="organic">Organic</th>
+        <th id="milkType">Milk Type</th>
+        <th id="milkTreatment">Milk Treatment Type</th>
+      </thead>
+      <tbody id="mainTableBody"></tbody>
+    </table>
+
+    <!--Modal window: view details-->
+    <div id="viewDetail" class="view">
+      <div class="view-content">
+        <button id="closeButton">X</button>
+        <h2 id="cheeseNameHeading"></h2>
+        <br />
+        <h3 id="manufacturerHeading">Manufacturer Information</h3>
+        <table id="manufacturerTable"></table>
+        <div id="information">
+          <h3 id="particularitiesHeading">Particularities</h3>
+          <p id="particularities">N/A</p>
+
+          <h3 id="flavourHeading">Flavour</h3>
+          <p id="flavour"></p>
+
+          <h3 id="characteristicsHeading">Characteristics</h3>
+          <p id="characteristics"></p>
+
+          <h3 id="ripeningHeading">Ripening</h3>
+          <p id="ripening"></p>
+
+          <h3 id="rindTypeHeading">Rind Type</h3>
+          <p id="rindType"></p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
