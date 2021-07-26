@@ -19,7 +19,7 @@
     - cd to the "frontend" directory
     - Run `http-server`
     - Open a web browser (e.g. Chrome)
-    - Go to `http://127.0.0.1/8080/index.html` or simply `http://127.0.0.1/8080`
+    - Go to `http://127.0.0.1:8080/index.html` or simply `http://127.0.0.1:8080`
 
 - Backend: port 3000
 - Frontend: port 8080
