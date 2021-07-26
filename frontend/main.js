@@ -46,21 +46,21 @@ window.onload = () => {
     closeButtonModal.addEventListener('click', closeModal);
 } // end of window.onload()
 
-// If a word in the selected language is empty, assign the word in the alternative language
+// If information in the selected language is empty, assign the information in the alternative language
 // e.g. If a cheese name is empty in English, then use the name in French 
 // If the flag, showNA, is set, return "N/A"
 function fillEmpty(selected, alternative, showNA) {
-    let word = selected;
+    let information = selected;
 
-    if (word === "") {
-        word = alternative;
+    if (information === "") {
+        information = alternative;
     }
     if (selected === "" && alternative === "") {
         if (showNA) {
-            word = "N/A";
+            information = "N/A";
         }
     }
-    return word;
+    return information;
 } // end of fillEmpty()
 
 // Given the current page number, calculate the starting index number and the ending index number
