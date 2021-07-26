@@ -1,12 +1,12 @@
 # Coding Challenge
 
-## Set up
+## Setup
 
-###### Prerequite:
-- Need to install MongoDB Community Edition. https://www.mongodb.com/
+#### Prerequite:
+- Need to install MongoDB Community Edition. `https://www.mongodb.com/`
 
 
-###### How to start:
+#### How to start:
 1. `git clone` <this repository url>
 2. cd to the cloned directory 
 3. `npm install`
@@ -19,13 +19,13 @@
     - cd to the "frontend" directory
     - Run `http-server`
     - Open a web browser (e.g. Chrome)
-    - Go to "http://127.0.0.1/8080/index.html" or simply "http://127.0.0.1/8080"
+    - Go to `http://127.0.0.1/8080/index.html` or simply `http://127.0.0.1/8080`
 
-Backend: port 3000
-Frontend: port 8080
+- Backend: port 3000
+- Frontend: port 8080
 
 
-###### To end: 
+#### How to end: 
     - Close the website
     - Ctrl-C to end the server ("Ctrl-C: Terminating the backend & database  - Goodbye" will be printed.)
     - Delete the "cheeseDB" database (*Note: only the collection is deleted by ending the server)
@@ -62,7 +62,7 @@ Frontend: port 8080
     - Search a cheese by name.
     - Sort the table by a cheese name, a fat content percentage, or a moisture percentage.
 
-## My solutions/ideas for the "Strech" section:
+## My solutions/ideas for the "Strech" section
 
 1. Language:
    Since a user may be Anglophone or Francophone, I made radio buttons to allow users to switch between English and French.
@@ -73,9 +73,10 @@ Frontend: port 8080
    My main prioity was to make a clean and responsive website using minimal colours.
    I put the categories of cheese in the header to make the website easy to navigate.
    
-   I referenced these websites 
+   I referenced this website
+    
         - https://venngage.com/blog/color-blind-friendly-palette/
-        - https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
+    
    to pick colours that are colourblind-friendly.
 
     However, to increase accessibility, I think a speech-to-text API can also be added to the website.
@@ -93,14 +94,14 @@ Frontend: port 8080
 - LastUpdateDate is private
 - For "Organic": 0 = false, 1 = true
 
-###### Inital Idea:
+###### Initial Idea:
 
 - Let's display a subset of data in a table and let users click on a row to get the information that is not shown in the table.
 
 ###### What I planned:
 
-1. Create a low fideality prototype for the website
-   - Title, category header, table, search box, buttons to go to a previous/next page
+1. Create a low-fidelity prototype for the website
+   - Title, table, search box, buttons to go to a previous/next page
 2. Create a HTML page
 3. Learn and get data from the provided API
 4. Make a function to dynamically add data from the API
@@ -117,29 +118,29 @@ Frontend: port 8080
 
 ## Timeline
 ###### Day 1 
-    - Created a prototype
-    - Created a page using HTML and Javascript
-    - Usign the Chrome extension, fetched the data
-    - Populated the table with the fetched data
+    - Created a prototype.
+    - Created a page using HTML and Javascript.
+    - Used a Chrome extension, Allow CORS: Access-Control-Allow-Origin, fetched the data.
+    - Populated the table with the fetched data.
     - Started working on a pagination feature.
     
 ###### Day 2
     - Realized that using the Chrome extension might not be a good idea.
     - Learned about the Express CORS package.
-    - Learned the basic Node.js to create a backend
+    - Learned the basic Node.js to create a backend.
     - Table had 138 pages. 
         - Needed to find a way to reduce this number.
         - Came up with the idea of utilizing the category type.
 
 ###### Day 3
     - To get data by category, thought of using a database.
-    - Learned how to access MongoDB in Node.js
+    - Learned how to access MongoDB in Node.js.
     - Although understanding MongoDB & Node.js took some time, I could not give up on it because I had time until the deadline.
     
 ###### Day 4
     - Added a sort feature. 
-    - Continued to learn  MongoDB & Node.js
-    - Decided to use a simple query
+    - Continued to learn  MongoDB & Node.js.
+    - Decided to use a simple query.
 
 ###### Day 5
     - Clean up 
@@ -147,7 +148,7 @@ Frontend: port 8080
 ## Difficulties & Resolutions:
 
 1. At first, I had some issues with accessing the API from my localhost URL.
-   As a quick fix, I used a Chrome Extension, Allow CORS: Access-Control-Allow-Origin.
+   As a quick fix, I used the extension, Allow CORS: Access-Control-Allow-Origin.
    But I realized that it was better to use a backend to solve the CORS issue.
 
 2. As I was creating the website, I thought of displaying the different categories of cheese, so that users can click one of the categories
@@ -158,7 +159,7 @@ Frontend: port 8080
 3. Since the data is in JSON format, noSQL database seemed to be a good fit.
    I wanted to challenge myself to learn and use noSQL and MongoDB. However, I realized that I needed more time to properly learn MongoDB.
 
-###### Lesson learned:
+###### Lessons learned:
 
 - Minimize data processing in the frontend.
 - The backend needs to handle data.
@@ -171,14 +172,12 @@ Frontend: port 8080
 
 ###### Resources used:
 
-https://www.mongodb.com/
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment
-http://expressjs.com/en/resources/middleware/cors.html
-https://nodejs.org/en/docs/guides/
-https://nodejs.org/api/process.html
-https://jestjs.io/docs/getting-started
-https://venngage.com/blog/color-blind-friendly-palette/
-https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
-https://dev.w3.org/html5/html-author/charref
-https://www.tutorialspoint.com/mongodb/mongodb_drop_database.htm
+- `https://www.mongodb.com/`
+- `https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide`
+- `https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment`
+- `http://expressjs.com/en/resources/middleware/cors.html`
+- `https://nodejs.org/en/docs/guides/`
+- `https://nodejs.org/api/process.html`
+- `https://jestjs.io/docs/getting-started`
+- `https://venngage.com/blog/color-blind-friendly-palette/`
+- `https://dev.w3.org/html5/html-author/charref`
