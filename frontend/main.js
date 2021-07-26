@@ -277,7 +277,7 @@ function changeToEnglish() {
     semiSoftCheese.innerText = "Semi-soft Cheese";
     softCheese.innerText = "Soft Cheese";
     veinedCheese.innerText = "Veined Cheeses";
-    uncategorized.innerText = "Unclassified";
+    uncategorized.innerText = "Uncategorized";
 
     document.getElementById("cheeseHeader").innerText = "Cheese Directory";
     document.getElementById("agricultureTitle").innerText = "from Agriculture and Agri-Food Canada";
