@@ -182,7 +182,7 @@
 
 ###### What to improve:
 
-- Learn more about mongoDB and practice its commands to be able to make complex queries.
+- Learn more about MongoDB and practice its commands to be able to make complex queries.
 - Improve the backend so that data processing/manipulation is done in the backend.
 - Use an icon rather than a special character.
 
