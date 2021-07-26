@@ -14,7 +14,7 @@
     - cd to the "backend" directory
     - Run `node server.js` ("Server at port 3000 started!" will be printed on a terminal.)
     
-    Frontend:  *can use VSCode Live Server 
+    Frontend:  *can use Visual Studio Code Live Server 
     - Open a new terminal window
     - cd to the "frontend" directory
     - Run `http-server`
