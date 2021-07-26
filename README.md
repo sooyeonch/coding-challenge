@@ -81,13 +81,13 @@
 ## My solutions/ideas for the "Strech" section
 
 1. Language:
-   Since a user may be Anglophone or Francophone, I made radio buttons to allow users to switch between English and French.
+   Since users may be Anglophone or Francophone, I made radio buttons to allow the users to switch between English and French.
    I translated some important words in French. 
    In order to ensure that the website is fully translated, I think Google Cloud Translation API will be helpful.
 
 2. Assistive Technolgies / Users using assitive devices:
    My main prioity was to make a clean and responsive website using minimal colours.
-   I put the categories of cheese in the header to make the website easy to navigate.
+   I put the different category types in the header to make the website easy to navigate.
    
    I referenced this website
     
