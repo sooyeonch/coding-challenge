@@ -7,7 +7,7 @@
 
 
 #### How to start:
-1. `git clone` this repository url
+1. `git clone https://github.com/sooyeonch/coding-challenge.git`
 2. cd to the cloned directory 
 3. `npm install`
 4. Backend:
