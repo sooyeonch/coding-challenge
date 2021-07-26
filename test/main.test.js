@@ -6,7 +6,7 @@ const { fillEmpty, getCurrentLanguage, calculatePageRange } = require("../main.j
 // Unit tests for simple functions that have return statements
 // Not familiar with jest, so this is what I could come up with
 
-test("fillEmpty(): Preferred word exists", () => {
+test("fillEmpty(): English = selected language", () => {
     expect(fillEmpty("Hello", "", false)).toBe("Hello")
 })
 
