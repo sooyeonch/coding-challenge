@@ -8,15 +8,15 @@
 
 #### How to start:
 1. `git clone https://github.com/sooyeonch/coding-challenge.git`
-2. cd to the cloned directory 
+2. `cd` to the cloned directory 
 3. `npm install`
 4. Backend:
-    - cd to the "backend" directory
+    - `cd` to the `backend` directory
     - Run `node server.js` ("Server at port 3000 started!" will be printed on a terminal.)
     
     Frontend:  *optional: can use Visual Studio Code Live Server 
     - Open a new terminal window
-    - cd to the "frontend" directory
+    - `cd` to the `frontend` directory
     - Run `http-server`
     - Open a web browser (e.g. Chrome)
     - Go to `http://127.0.0.1:8080/index.html` or simply `http://127.0.0.1:8080`
