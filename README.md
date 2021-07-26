@@ -12,7 +12,7 @@
 3. `npm install`
 4. Backend:
     - cd to the "backend" directory
-    - Run `run server.js` ("Server at port 3000 started!" will be printed on a terminal.)
+    - Run `node server.js` ("Server at port 3000 started!" will be printed on a terminal.)
     
     Frontend:  *can use VSCode Live Server 
     - Open a new terminal window
